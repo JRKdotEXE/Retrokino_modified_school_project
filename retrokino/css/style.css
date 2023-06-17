@@ -1,0 +1,182 @@
+	/* ../ zpátky do nějaké složky složky */
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nazev {
+	width: 600px;
+	margin-top: 250px;
+	margin-bottom: 150px;
+}
+
+#retrokino {
+	background-image: url('../images/images/header-background.jpg');
+	height: 670px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+}
+/* navigace */
+#main-nav {
+	background-color: #eda540;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	font-family: 'Zilla Slab', serif;
+	text-transform: uppercase;
+	font-weight: 700
+}
+
+#main-nav li {
+	display: inline-block;
+}
+
+#main-nav a {
+	color: #000;
+	text-decoration: none;
+	padding: 24px 32px;
+	display: block;
+}
+
+#main-nav li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.dark-block{
+	background-color: #eee;
+	text-align: center;
+	padding: 72px 0 90px 0;
+}
+
+.light-block {
+	background-color: #fff;
+	text-align: center;
+	padding: 72px 0 90px 0;
+}
+
+.dark-block img {
+	margin: 18px;
+}
+
+h2 {
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-size: 32px;
+	font-family: 'Zilla Slab', serif;
+}
+
+.subtitle {
+	color: rgba(0, 0, 0, .5);
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Zilla Slab', serif;
+}
+
+table {
+	margin: 40px auto;
+}
+
+table, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	padding: 16px 12px;
+}
+
+th {
+	background-color: rgba(0, 0, 0, .8);
+	color: #fff;
+}
+
+td {
+	background-color: rgba(0, 0, 0, .1);
+	width: 56px;
+	padding: 16px 12px;
+
+}
+
+.movie-name {
+	background-color: #eda540;
+	width: 376px;
+	text-align: left;
+}
+
+.sold-out {
+	background-color: #d5615b;
+	color: #fff;
+}
+
+.cancelled {
+	font-style: italic;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+}
+
+.note {
+	color: rgba(0, 0, 0, .3);
+	font-style: italic;
+}
+
+.phone-number {
+	color: #eda540;
+	font-size: 32px;
+	margin: 64px 0 8px 0;
+}
+
+.imageicon {
+	height: 180px;
+	margin: 8px 40px;
+}
+
+#frame {
+	border: 1px dotted rgba(0, 0, 0, .2);
+	width: 350px;
+	height: 150px;
+	margin: 48px auto;
+	list-style: none;
+	padding: 0;
+}
+
+#classroom {
+	color: #eda540;
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 24px auto;
+}
+
+#school {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#adresa {
+	color: rgba(0, 0, 0, .5);
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, .8);
+	padding: 48px 0 56px 0;
+	text-align: center;
+	color: rgba(255, 255, 255, .5);
+	
+}
+
+strong {
+	font-style: none;
+	color: white;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
