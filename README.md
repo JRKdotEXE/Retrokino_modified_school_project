@@ -1,2 +1,3 @@
 # Retrokino_modified_school_project
-Retrokino - inspired by Petr Šavelka
+Modified school project Retrokino
+inspired by Petr Savelka
